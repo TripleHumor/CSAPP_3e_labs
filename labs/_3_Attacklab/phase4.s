@@ -1,0 +1,11 @@
+movq %rax,%rdi
+movq %rax,%rsp
+movq %rdi,(%rsp)
+addq $8,(%rsp)
+addq %rdi,%rsp
+pushq %rax
+pushq %rsp
+popq %rsp
+popq %rdi
+popq %rax
+movq $0x4017ec,%rsp

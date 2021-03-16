@@ -1,0 +1,14 @@
+
+phase4.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <.text>:
+   0:	48 89 c7             	mov    %rax,%rdi
+   3:	48 89 c4             	mov    %rax,%rsp
+   6:	48 89 fc             	mov    %rdi,%rsp
+   9:	50                   	push   %rax
+   a:	5f                   	pop    %rdi
+   b:	58                   	pop    %rax
+   c:	48 c7 c4 ec 17 40 00 	mov    $0x4017ec,%rsp
